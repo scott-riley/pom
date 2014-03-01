@@ -34,6 +34,7 @@
     .close-icon {
       z-index: 3;
       line-height: @tab-height;
+      transition: all .1s ease-in;
     }
 
     &.modified:not(:hover) .close-icon {
@@ -42,10 +43,6 @@
       width: @modified-icon-width;
       height: @modified-icon-width;
       border: 2px solid #70BAFF;
-    }
-
-    .title{
-
     }
 
     &:first-child {
@@ -81,7 +78,10 @@
   }
 
   .tab.active:hover .close-icon {
-    color: @text-color-highlight;
+    color: inherit;
+    &:hover {
+      color: white;
+    }
   }
 
   .placeholder {
