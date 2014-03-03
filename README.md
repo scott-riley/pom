@@ -2,7 +2,7 @@
 
 A dark theme for Atom that you might like or might hate or whatever I dunno.
 
-![](http://cl.ly/image/27413W0k1M3q/Screen%20Shot%202014-02-28%20at%2019.40.54.png)
+![](http://cl.ly/image/1p2o2U410032/Screen%20Shot%202014-03-03%20at%2019.22.54.png)
 
 You can install this by running
 `apm install pom`
